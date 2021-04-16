@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+}
+.bbDiv {
+  margin: 20px 0 0 -25px;
+  width: 240px;
+  height: 240px;
+  transform: rotateY(180deg);
+  color: white;
+  display: inline-block;
+}
+.tsparticles {
+  position: fixed;
+  width: 240px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.date {
+  font-family: "Rubik Mono One", sans-serif;
+  padding: 9px 0 0 1px;
+  margin: 0;
+  font-size: 22px;
+  height: 20px;
+}
+.time {
+  font-family: "Rubik Mono One", sans-serif;
+  padding: 0px 0 0 1px;
+  margin: 0;
+  font-size: 28px;
+}
+.week {
+  font-family: "Rubik Mono One", sans-serif;
+  padding: 0px 0 0 1px;
+  margin: 0;
+  font-size: 26px;
+  color: powderblue;
+}
+.line {
+  height: 11px;
+  background-color: powderblue;
+  width: 190px;
+}
+.btv {
+  margin: 5px 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+.btv .text {
+  width: 105px;
+  margin: 0 10px 0 0;
+  text-align: right;
+  font-family: "Share", cursive;
+}
+.btv .text .fans {
+  font-size: 34px;
+  color: #01b0ff;
+}
+.btv .text .fansChange {
+  font-size: 30px;
+  color: powderblue;
+}
+.btv .img {
+  margin-left: 3px;
+}
+.gif1 {
+  height: 240px;
+  background-image: url("~@/assets/400.gif");
+  width: 240px;
+  background-position-x: -80px;
+}
+.gif1 .time {
+  font-family: "Rubik Mono One", sans-serif;
+  padding: 40px 0 0 24px;
+  margin: 0;
+  font-size: 28px;
+  color: white;
+  transform: rotateY(180deg);
+}
+.gif2 {
+  height: 240px;
+  width: 310px;
+  overflow: hidden;
+}
+.gif2 .video {
+  /* float: right; */
+  margin-left: -70px;
+  /* left: -30px; */
+}
+.weatherDiv {
+  width: 240px;
+  height: 240px;
+  display: inline-block;
+  color: white;
+}
+.weatherDiv .content {
+  text-align: center;
+  transform: rotateY(180deg);
+  margin: 35px 0 0 0;
+}
+.weatherDiv .text {
+  font-size: 28px;
+  margin: 20px 0 0 0;
+}
+.weatherDiv .windScale {
+  font-size: 24px;
+  margin: 5px 0 0 0;
+}
+.weatherDiv .w_img {
+  height: 150px;
+  margin: -30px -50px -50px -50px;
+}
+.light {
+  margin: 20px 0 0 0;
+  width: 240px;
+  height: 240px;
+  transform: rotateY(180deg);
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+.light .icon {
+  margin-top: 5px;
+}
+.light .title {
+  font-size: 24px;
+}
+.light .upt {
+  margin-top: 5px;
+}
